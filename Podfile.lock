@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (5.4.1)
+  - Cosmos (23.0.0)
+  - Hero (1.6.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - JGProgressHUD (2.2)
+  - lottie-ios (3.1.9)
+  - MOLH (1.4.3)
+  - SDWebImage (5.10.2):
+    - SDWebImage/Core (= 5.10.2)
+  - SDWebImage/Core (5.10.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - Cosmos (~> 23.0)
+  - Hero
+  - IQKeyboardManagerSwift
+  - JGProgressHUD
+  - lottie-ios
+  - MOLH
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cosmos
+    - Hero
+    - IQKeyboardManagerSwift
+    - JGProgressHUD
+    - lottie-ios
+    - MOLH
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  Hero: 052b9b9bab68fc4e30cc04e5936eaf0de97b59d3
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
+  MOLH: e45827d200aeb1310641090fd8cd03ad2b42ae72
+  SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
+
+PODFILE CHECKSUM: 68ba5bf3725a4f0a622e000ded292af44366d161
+
+COCOAPODS: 1.8.4
