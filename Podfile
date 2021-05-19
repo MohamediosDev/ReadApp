@@ -9,11 +9,10 @@ target 'ReadApp' do
   pod 'IQKeyboardManagerSwift'
   pod 'MOLH'
   pod 'Alamofire'
-  pod 'Hero'
   pod 'SDWebImage'
   pod 'JGProgressHUD'
   pod 'Cosmos', '~> 23.0'
-  pod 'lottie-ios'
+ 
 
 
 

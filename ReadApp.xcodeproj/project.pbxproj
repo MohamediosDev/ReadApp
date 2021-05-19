@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7135B1F7D98B359A69665D13 /* Pods_ReadApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A9B581C1D0D835E97DD527 /* Pods_ReadApp.framework */; };
-		D918488525EE9F270066F3A6 /* HeroHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D918488425EE9F260066F3A6 /* HeroHelper.swift */; };
 		D948243625DC9EC00094756A /* ShowBooksVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D948243525DC9EC00094756A /* ShowBooksVc.swift */; };
 		D95CFC9B25DD648C004368DC /* bookShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95CFC9925DD648C004368DC /* bookShowCell.swift */; };
 		D95CFC9C25DD648C004368DC /* bookShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95CFC9A25DD648C004368DC /* bookShowCell.xib */; };
 		D95CFC9F25DD65C6004368DC /* BookModalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95CFC9E25DD65C6004368DC /* BookModalData.swift */; };
 		D95CFCB325DD6E19004368DC /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95CFCB225DD6E19004368DC /* Networking.swift */; };
-		D964002625EFEA8900F07C0E /* NoBookFound.json in Resources */ = {isa = PBXBuildFile; fileRef = D964002525EFEA8900F07C0E /* NoBookFound.json */; };
 		D98C4EF025DEF137009DFA6F /* BookDetailVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C4EEF25DEF137009DFA6F /* BookDetailVc.swift */; };
+		D99CD2B92653468700A1A999 /* WebViewReadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CD2B82653468700A1A999 /* WebViewReadController.swift */; };
 		D9A66D0325DC8AE000D70D75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A66D0225DC8AE000D70D75 /* AppDelegate.swift */; };
 		D9A66D0525DC8AE000D70D75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A66D0425DC8AE000D70D75 /* SceneDelegate.swift */; };
 		D9A66D0725DC8AE000D70D75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A66D0625DC8AE000D70D75 /* ViewController.swift */; };
@@ -24,20 +23,24 @@
 		D9A66D0F25DC8AE300D70D75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A66D0D25DC8AE300D70D75 /* LaunchScreen.storyboard */; };
 		D9BB17BE25DD4D8C00D6E699 /* AlertControllerVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BB17BC25DD4D8C00D6E699 /* AlertControllerVc.swift */; };
 		D9BB17BF25DD4D8C00D6E699 /* AlertControllerVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9BB17BD25DD4D8C00D6E699 /* AlertControllerVc.xib */; };
+		D9D5F9A02652FAC700AB252E /* OnboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5F99F2652FAC700AB252E /* OnboardModel.swift */; };
+		D9D5F9A72652FC0000AB252E /* CoreOnboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5F9A62652FC0000AB252E /* CoreOnboard.swift */; };
+		D9D5F9BB2653054600AB252E /* OnBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5F9BA2653054600AB252E /* OnBoardController.swift */; };
+		D9D5F9BE2653068A00AB252E /* OnBoardController+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5F9BD2653068A00AB252E /* OnBoardController+Extention.swift */; };
+		D9D5F9C2265307A100AB252E /* OnBoardCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5F9C1265307A100AB252E /* OnBoardCollectionCell.swift */; };
 		D9DE470525DD5AB100D353BF /* helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE470425DD5AB100D353BF /* helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06F2C6C1F3506C09FF9D4402 /* Pods-ReadApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadApp.debug.xcconfig"; path = "Target Support Files/Pods-ReadApp/Pods-ReadApp.debug.xcconfig"; sourceTree = "<group>"; };
 		75E51C21CCD1DEACAA545891 /* Pods-ReadApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadApp.release.xcconfig"; path = "Target Support Files/Pods-ReadApp/Pods-ReadApp.release.xcconfig"; sourceTree = "<group>"; };
-		D918488425EE9F260066F3A6 /* HeroHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroHelper.swift; sourceTree = "<group>"; };
 		D948243525DC9EC00094756A /* ShowBooksVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowBooksVc.swift; sourceTree = "<group>"; };
 		D95CFC9925DD648C004368DC /* bookShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookShowCell.swift; sourceTree = "<group>"; };
 		D95CFC9A25DD648C004368DC /* bookShowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = bookShowCell.xib; sourceTree = "<group>"; };
 		D95CFC9E25DD65C6004368DC /* BookModalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModalData.swift; sourceTree = "<group>"; };
 		D95CFCB225DD6E19004368DC /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
-		D964002525EFEA8900F07C0E /* NoBookFound.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NoBookFound.json; sourceTree = "<group>"; };
 		D98C4EEF25DEF137009DFA6F /* BookDetailVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailVc.swift; sourceTree = "<group>"; };
+		D99CD2B82653468700A1A999 /* WebViewReadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewReadController.swift; sourceTree = "<group>"; };
 		D9A66CFF25DC8AE000D70D75 /* ReadApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A66D0225DC8AE000D70D75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9A66D0425DC8AE000D70D75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		D9A9B581C1D0D835E97DD527 /* Pods_ReadApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReadApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BB17BC25DD4D8C00D6E699 /* AlertControllerVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControllerVc.swift; sourceTree = "<group>"; };
 		D9BB17BD25DD4D8C00D6E699 /* AlertControllerVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertControllerVc.xib; sourceTree = "<group>"; };
+		D9D5F99F2652FAC700AB252E /* OnboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardModel.swift; sourceTree = "<group>"; };
+		D9D5F9A62652FC0000AB252E /* CoreOnboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreOnboard.swift; sourceTree = "<group>"; };
+		D9D5F9BA2653054600AB252E /* OnBoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardController.swift; sourceTree = "<group>"; };
+		D9D5F9BD2653068A00AB252E /* OnBoardController+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnBoardController+Extention.swift"; sourceTree = "<group>"; };
+		D9D5F9C1265307A100AB252E /* OnBoardCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardCollectionCell.swift; sourceTree = "<group>"; };
 		D9DE470425DD5AB100D353BF /* helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +89,24 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D94CBAAC265324BE00546757 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D9A66D0D25DC8AE300D70D75 /* LaunchScreen.storyboard */,
+				D9A66D0825DC8AE000D70D75 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		D94CBAAD265324D000546757 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D9A66D0B25DC8AE300D70D75 /* Assets.xcassets */,
+				D9A66D1025DC8AE300D70D75 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
 		D95CFC9825DD6448004368DC /* CollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,28 +124,22 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
-		D964002825EFEA9300F07C0E /* lottie */ = {
-			isa = PBXGroup;
-			children = (
-				D964002525EFEA8900F07C0E /* NoBookFound.json */,
-			);
-			path = lottie;
-			sourceTree = "<group>";
-		};
 		D98C4EE925DEF0B0009DFA6F /* core */ = {
 			isa = PBXGroup;
 			children = (
 				D9A66D0425DC8AE000D70D75 /* SceneDelegate.swift */,
 				D9A66D0225DC8AE000D70D75 /* AppDelegate.swift */,
+				D9D5F9A62652FC0000AB252E /* CoreOnboard.swift */,
 			);
 			path = core;
 			sourceTree = "<group>";
 		};
-		D993769725EEE0BF00BD89D9 /* OnboardController */ = {
+		D99CD2B72653464E00A1A999 /* ReadScreen */ = {
 			isa = PBXGroup;
 			children = (
+				D99CD2B82653468700A1A999 /* WebViewReadController.swift */,
 			);
-			path = OnboardController;
+			path = ReadScreen;
 			sourceTree = "<group>";
 		};
 		D9A66CF625DC8AE000D70D75 = {
@@ -143,15 +163,14 @@
 		D9A66D0125DC8AE000D70D75 /* ReadApp */ = {
 			isa = PBXGroup;
 			children = (
-				D964002825EFEA9300F07C0E /* lottie */,
+				D98C4EE925DEF0B0009DFA6F /* core */,
 				D95CFCB125DD6DFD004368DC /* Networking */,
 				D9BB178F25DD418300D6E699 /* Modal */,
 				D9BB178E25DD417A00D6E699 /* View */,
 				D9BB178C25DD416D00D6E699 /* Controller */,
-				D9A66D0825DC8AE000D70D75 /* Main.storyboard */,
-				D9A66D0B25DC8AE300D70D75 /* Assets.xcassets */,
-				D9A66D0D25DC8AE300D70D75 /* LaunchScreen.storyboard */,
-				D9A66D1025DC8AE300D70D75 /* Info.plist */,
+				D9DE470325DD5A9200D353BF /* Desigines */,
+				D94CBAAC265324BE00546757 /* StoryBoard */,
+				D94CBAAD265324D000546757 /* SupportFiles */,
 			);
 			path = ReadApp;
 			sourceTree = "<group>";
@@ -159,13 +178,12 @@
 		D9BB178C25DD416D00D6E699 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D993769725EEE0BF00BD89D9 /* OnboardController */,
+				D9D5F9A92653007100AB252E /* OnBoardScreen */,
 				D9BB17BB25DD4D5800D6E699 /* AlertController */,
-				D9A66D0625DC8AE000D70D75 /* ViewController.swift */,
-				D948243525DC9EC00094756A /* ShowBooksVc.swift */,
-				D98C4EEF25DEF137009DFA6F /* BookDetailVc.swift */,
-				D98C4EE925DEF0B0009DFA6F /* core */,
-				D9DE470325DD5A9200D353BF /* Desigines */,
+				D9D5F9C7265311C200AB252E /* HomeScreen */,
+				D9D5F9D2265311D800AB252E /* ShowBookScreen */,
+				D9D5F9D3265311EE00AB252E /* BookDetailScreen */,
+				D99CD2B72653464E00A1A999 /* ReadScreen */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				D95CFC9E25DD65C6004368DC /* BookModalData.swift */,
+				D9D5F99F2652FAC700AB252E /* OnboardModel.swift */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -195,11 +214,60 @@
 			path = AlertController;
 			sourceTree = "<group>";
 		};
+		D9D5F9A92653007100AB252E /* OnBoardScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D9D5F9B12653019200AB252E /* OnBoardCollectionView */,
+				D9D5F9C52653109700AB252E /* onBoardCollection */,
+			);
+			path = OnBoardScreen;
+			sourceTree = "<group>";
+		};
+		D9D5F9B12653019200AB252E /* OnBoardCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				D9D5F9BA2653054600AB252E /* OnBoardController.swift */,
+				D9D5F9BD2653068A00AB252E /* OnBoardController+Extention.swift */,
+			);
+			path = OnBoardCollectionView;
+			sourceTree = "<group>";
+		};
+		D9D5F9C52653109700AB252E /* onBoardCollection */ = {
+			isa = PBXGroup;
+			children = (
+				D9D5F9C1265307A100AB252E /* OnBoardCollectionCell.swift */,
+			);
+			path = onBoardCollection;
+			sourceTree = "<group>";
+		};
+		D9D5F9C7265311C200AB252E /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D9A66D0625DC8AE000D70D75 /* ViewController.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		D9D5F9D2265311D800AB252E /* ShowBookScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D948243525DC9EC00094756A /* ShowBooksVc.swift */,
+			);
+			path = ShowBookScreen;
+			sourceTree = "<group>";
+		};
+		D9D5F9D3265311EE00AB252E /* BookDetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D98C4EEF25DEF137009DFA6F /* BookDetailVc.swift */,
+			);
+			path = BookDetailScreen;
+			sourceTree = "<group>";
+		};
 		D9DE470325DD5A9200D353BF /* Desigines */ = {
 			isa = PBXGroup;
 			children = (
 				D9DE470425DD5AB100D353BF /* helpers.swift */,
-				D918488425EE9F260066F3A6 /* HeroHelper.swift */,
 			);
 			path = Desigines;
 			sourceTree = "<group>";
@@ -265,7 +333,6 @@
 			files = (
 				D9A66D0F25DC8AE300D70D75 /* LaunchScreen.storyboard in Resources */,
 				D9A66D0C25DC8AE300D70D75 /* Assets.xcassets in Resources */,
-				D964002625EFEA8900F07C0E /* NoBookFound.json in Resources */,
 				D95CFC9C25DD648C004368DC /* bookShowCell.xib in Resources */,
 				D9A66D0A25DC8AE000D70D75 /* Main.storyboard in Resources */,
 				D9BB17BF25DD4D8C00D6E699 /* AlertControllerVc.xib in Resources */,
@@ -322,16 +389,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				D95CFC9F25DD65C6004368DC /* BookModalData.swift in Sources */,
-				D918488525EE9F270066F3A6 /* HeroHelper.swift in Sources */,
 				D948243625DC9EC00094756A /* ShowBooksVc.swift in Sources */,
 				D9A66D0725DC8AE000D70D75 /* ViewController.swift in Sources */,
 				D95CFCB325DD6E19004368DC /* Networking.swift in Sources */,
 				D98C4EF025DEF137009DFA6F /* BookDetailVc.swift in Sources */,
 				D9A66D0325DC8AE000D70D75 /* AppDelegate.swift in Sources */,
+				D9D5F9C2265307A100AB252E /* OnBoardCollectionCell.swift in Sources */,
+				D9D5F9A02652FAC700AB252E /* OnboardModel.swift in Sources */,
 				D9A66D0525DC8AE000D70D75 /* SceneDelegate.swift in Sources */,
 				D9BB17BE25DD4D8C00D6E699 /* AlertControllerVc.swift in Sources */,
 				D9DE470525DD5AB100D353BF /* helpers.swift in Sources */,
+				D9D5F9A72652FC0000AB252E /* CoreOnboard.swift in Sources */,
+				D99CD2B92653468700A1A999 /* WebViewReadController.swift in Sources */,
 				D95CFC9B25DD648C004368DC /* bookShowCell.swift in Sources */,
+				D9D5F9BB2653054600AB252E /* OnBoardController.swift in Sources */,
+				D9D5F9BE2653068A00AB252E /* OnBoardController+Extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,7 +553,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UK6Y67HR9Y;
-				INFOPLIST_FILE = ReadApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ReadApp/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -489,7 +561,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.soda.ReadApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -501,7 +573,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UK6Y67HR9Y;
-				INFOPLIST_FILE = ReadApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ReadApp/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -509,7 +581,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.soda.ReadApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
