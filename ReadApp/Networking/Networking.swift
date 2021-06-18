@@ -15,7 +15,6 @@ class ApiService {
     
     static let Shared = ApiService()
     
-    
     func fetchData<T:Codable ,E:Codable>(url:String , parms:Parameters? , headers: HTTPHeaders?, method : HTTPMethod? , Compltion : @escaping((T?, E?, Error?)->Void)) {
         AF.request(url, method: method ?? .get, parameters: parms, encoding: JSONEncoding.default, headers: headers)
             .validate(statusCode: 200 ..< 300)
@@ -30,9 +29,7 @@ class ApiService {
                         
                     }
                     catch let JsonErorr {
-                        
                         print(JsonErorr)
-                        
                     }
                 case .failure(let error):
                     let StautsCode = response.response?.statusCode ?? 0
