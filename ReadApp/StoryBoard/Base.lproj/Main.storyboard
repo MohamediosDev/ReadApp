@@ -53,7 +53,7 @@
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9q-LD-vs6">
                                                 <rect key="frame" x="0.0" y="100" width="354" height="60"/>
-                                                <color key="backgroundColor" red="0.12941176470588234" green="0.1803921568627451" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="0.16470588235294117" green="0.23529411764705882" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="60" id="EK5-6q-lni"/>
                                                 </constraints>
@@ -255,19 +255,25 @@
                                 <rect key="frame" x="0.0" y="280" width="414" height="126"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifv-9m-58F">
-                                        <rect key="frame" x="10" y="15" width="394" height="25"/>
+                                        <rect key="frame" x="10" y="10" width="394" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="FQd-aH-3Sc"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Authours" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flg-77-nd6">
-                                        <rect key="frame" x="10" y="50" width="394" height="19.5"/>
+                                        <rect key="frame" x="10" y="55" width="394" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="fQP-en-rPj"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PPs-ev-5hM" customClass="CosmosView" customModule="Cosmos">
-                                        <rect key="frame" x="150.5" y="79.5" width="113" height="30"/>
+                                        <rect key="frame" x="150.5" y="85" width="113" height="19"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <rect key="contentStretch" x="0.20000000000000001" y="0.0" width="1" height="1"/>
                                         <userDefinedRuntimeAttributes>
@@ -292,29 +298,18 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="updateOnTouch" value="NO"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FMT-VQ-DMN">
-                                        <rect key="frame" x="0.0" y="119.5" width="414" height="2"/>
-                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="2" id="tFg-Nd-SaR"/>
-                                        </constraints>
-                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.94925707579999996" green="0.9528073668" blue="0.95679074529999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="PPs-ev-5hM" firstAttribute="top" secondItem="flg-77-nd6" secondAttribute="bottom" constant="10" id="2TO-IE-iS9"/>
-                                    <constraint firstItem="FMT-VQ-DMN" firstAttribute="top" secondItem="PPs-ev-5hM" secondAttribute="bottom" constant="10" id="6VT-xx-TDy"/>
+                                    <constraint firstItem="PPs-ev-5hM" firstAttribute="top" secondItem="flg-77-nd6" secondAttribute="bottom" constant="5" id="2TO-IE-iS9"/>
                                     <constraint firstAttribute="trailing" secondItem="flg-77-nd6" secondAttribute="trailing" constant="10" id="6j1-YR-iNa"/>
                                     <constraint firstItem="flg-77-nd6" firstAttribute="top" secondItem="ifv-9m-58F" secondAttribute="bottom" constant="10" id="7Fa-Jb-Lnd"/>
                                     <constraint firstAttribute="trailing" secondItem="ifv-9m-58F" secondAttribute="trailing" constant="10" id="8ru-pj-9nq"/>
-                                    <constraint firstItem="ifv-9m-58F" firstAttribute="top" secondItem="tjX-As-gih" secondAttribute="top" constant="15" id="HWV-oI-iB8"/>
-                                    <constraint firstItem="FMT-VQ-DMN" firstAttribute="width" secondItem="tjX-As-gih" secondAttribute="width" id="LMj-eg-tTP"/>
+                                    <constraint firstItem="ifv-9m-58F" firstAttribute="top" secondItem="tjX-As-gih" secondAttribute="top" constant="10" id="HWV-oI-iB8"/>
                                     <constraint firstItem="PPs-ev-5hM" firstAttribute="centerX" secondItem="tjX-As-gih" secondAttribute="centerX" id="aAS-zU-Yif"/>
                                     <constraint firstItem="PPs-ev-5hM" firstAttribute="centerY" secondItem="tjX-As-gih" secondAttribute="centerY" multiplier="1.5" id="bdD-1R-fGY"/>
-                                    <constraint firstItem="FMT-VQ-DMN" firstAttribute="leading" secondItem="tjX-As-gih" secondAttribute="leading" id="egN-YO-XBA"/>
                                     <constraint firstItem="flg-77-nd6" firstAttribute="leading" secondItem="tjX-As-gih" secondAttribute="leading" constant="10" id="ni6-Nn-saa"/>
                                     <constraint firstItem="ifv-9m-58F" firstAttribute="leading" secondItem="tjX-As-gih" secondAttribute="leading" constant="10" id="uT6-4P-8cg"/>
-                                    <constraint firstAttribute="trailing" secondItem="FMT-VQ-DMN" secondAttribute="trailing" id="yiB-OX-vlB"/>
                                 </constraints>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMW-UA-Duo">
@@ -609,9 +604,6 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

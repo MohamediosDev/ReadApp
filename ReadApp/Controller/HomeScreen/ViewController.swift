@@ -48,6 +48,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         self.hideKeyboardWhenTappedAround()
         customeView.layer.cornerRadius = 35
+        customeView.layer.maskedCorners = [.allBottom]
         customeView.layer.masksToBounds = true
         customeView.layer.shadowColor = UIColor.black.cgColor
         customeView.layer.shadowOpacity = 0.8

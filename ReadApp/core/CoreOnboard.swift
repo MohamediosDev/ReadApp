@@ -14,12 +14,12 @@ class Core {
     
     func isNewUser() ->Bool {
         
-        return !UserDefaults.standard.bool(forKey: "NewUser9")
+        return !UserDefaults.standard.bool(forKey: "TestUser222")
     }
     
     func notNewUser() {
         
-        UserDefaults.standard.set(true, forKey: "NewUser9")
+        UserDefaults.standard.set(true, forKey: "TestUser222")
     }
     
 }

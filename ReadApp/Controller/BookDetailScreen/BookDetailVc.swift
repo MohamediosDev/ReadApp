@@ -112,9 +112,13 @@ class BookDetailVc: UIViewController {
         
         print("Tap Tap ")
         guard let itemArray = self.bookDetail?.items else {return}
+        
         for item in itemArray {
+            
             self.titleimage.text = item.volumeInfo?.title
+            
             guard let url = URL(string: item.volumeInfo?.previewLink ?? "") else {return}
+            
             let vc = WebViewReadController(url:url , title: "Read.it📚")
             let NavVc = UINavigationController(rootViewController: vc)
             present(NavVc, animated:true)

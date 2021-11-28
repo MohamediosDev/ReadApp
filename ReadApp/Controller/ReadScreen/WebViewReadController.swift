@@ -49,7 +49,7 @@ class WebViewReadController: UIViewController {
     }
     
     private func configureButtonUI() {
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Done", style: .done, target: self, action: #selector(doneButtonTap))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Back", style: .done, target: self, action: #selector(doneButtonTap))
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(refershButtonTap))
         
         

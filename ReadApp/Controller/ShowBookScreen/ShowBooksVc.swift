@@ -17,12 +17,10 @@ class ShowBooksVc: UIViewController {
     //MARK: - Outlet
     @IBOutlet weak var bookCollection: UICollectionView!
     
-    @IBOutlet weak var imageShow: UIImageView!
     
     
     
     //MARK: - Properties
-    
     var searchText:String!
     var bookDetail:BookModal?
     
@@ -62,6 +60,7 @@ class ShowBooksVc: UIViewController {
         
         
         let url = "https://www.googleapis.com/books/v1/volumes?maxResults=30&q=\(searchText ?? "")"
+        
         ApiService.Shared.fetchData(url: url, parms: nil  , headers: nil, method:.get) { [weak self](getBook:BookModal?, failBook:BookModal?, error) in
             
             guard let self = self else {return}

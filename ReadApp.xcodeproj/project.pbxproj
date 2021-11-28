@@ -165,10 +165,10 @@
 			children = (
 				D98C4EE925DEF0B0009DFA6F /* core */,
 				D95CFCB125DD6DFD004368DC /* Networking */,
-				D9BB178F25DD418300D6E699 /* Modal */,
+				D9BB178F25DD418300D6E699 /* Model */,
 				D9BB178E25DD417A00D6E699 /* View */,
 				D9BB178C25DD416D00D6E699 /* Controller */,
-				D9DE470325DD5A9200D353BF /* Desigines */,
+				D9DE470325DD5A9200D353BF /* Helper File */,
 				D94CBAAC265324BE00546757 /* StoryBoard */,
 				D94CBAAD265324D000546757 /* SupportFiles */,
 			);
@@ -196,13 +196,13 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		D9BB178F25DD418300D6E699 /* Modal */ = {
+		D9BB178F25DD418300D6E699 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				D95CFC9E25DD65C6004368DC /* BookModalData.swift */,
 				D9D5F99F2652FAC700AB252E /* OnboardModel.swift */,
 			);
-			path = Modal;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D9BB17BB25DD4D5800D6E699 /* AlertController */ = {
@@ -264,12 +264,12 @@
 			path = BookDetailScreen;
 			sourceTree = "<group>";
 		};
-		D9DE470325DD5A9200D353BF /* Desigines */ = {
+		D9DE470325DD5A9200D353BF /* Helper File */ = {
 			isa = PBXGroup;
 			children = (
 				D9DE470425DD5AB100D353BF /* helpers.swift */,
 			);
-			path = Desigines;
+			path = "Helper File";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -9,31 +9,22 @@ import UIKit
 
 class OnBoardController: UIViewController {
     
-    //MARK:-> outlet
     @IBOutlet weak var onBoardCollectionView: UICollectionView!
     @IBOutlet weak var pageController: UIPageControl!
     @IBOutlet weak var nextButtonOutlet: UIButton!
-    
-    //MARK:-> properties
+
     
     var onBoardSlide:[OnBoardDataModel] = []
     var currentPage = 0 {
         didSet {
             pageController.currentPage = currentPage
-            if currentPage == onBoardSlide.count - 1 {
-                nextButtonOutlet.setTitle("Get Started", for: .normal)
-            }
-            else {
-                nextButtonOutlet.setTitle("Next", for: .normal)
-            }
+            nextButtonOutlet.setTitle(currentPage == onBoardSlide.count - 1 ? "Get Started" : "Next", for: .normal)
         }
     }
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         SetupCollectionView()
         assignValueToArray()
         
@@ -56,13 +47,13 @@ class OnBoardController: UIViewController {
     
     
     @IBAction func nextButtonAction(_ sender: Any) {
-        UserDefaults.standard.set(true, forKey: "NewUser9")
+        UserDefaults.standard.set(true, forKey: "TestUser222")
         
         if currentPage == onBoardSlide.count - 1 {
             
             Core.Shared.notNewUser()
             dismiss(animated: true, completion: nil)
-            print("Go to Another Page 🚀")
+            debugPrint("Go to Another Page 🚀")
         }
         
         else {

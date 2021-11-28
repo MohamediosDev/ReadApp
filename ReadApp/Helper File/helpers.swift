@@ -61,4 +61,53 @@ extension UIColor {
         self.init(red: CGFloat(r) / 255, green: CGFloat(g) / 255, blue: CGFloat(b) / 255, alpha: CGFloat(a) / 255)
     }
 }
-
+extension CACornerMask {
+    
+    /// [.topLeft, .topRight, .BottomLeft, .BottomRight]
+    static var all: CACornerMask {
+        return [.topLeft, .topRight, .bottomLeft, .bottomRight]
+    }
+    /// layerMaxXMinYCorner
+    static var topRight: CACornerMask {
+        return .layerMaxXMinYCorner
+    }
+    /// layerMinXMinYCorner
+    static var topLeft: CACornerMask {
+        return .layerMinXMinYCorner
+    }
+    /// layerMinXMaxYCorner
+    static var bottomLeft: CACornerMask {
+        return .layerMinXMaxYCorner
+    }
+    /// layerMaxXMaxYCorner
+    static var bottomRight: CACornerMask {
+        return .layerMaxXMaxYCorner
+    }
+    /// [.bottomLeft, .bottomRight]
+    static var allBottom: CACornerMask {
+        return [.bottomLeft, .bottomRight]
+    }
+    /// [.topLeft, .topRight]
+    static var allTop: CACornerMask {
+        return [.topLeft, .topRight]
+    }
+    /// [.topRight, .bottomRight]
+    static var allRight: CACornerMask {
+        return [.topRight, .bottomRight]
+    }
+    /// [.bottomLeft, .bottomRight]
+    static var allLeft: CACornerMask {
+        return [.bottomLeft, .bottomRight]
+    }
+    
+    /// all angles but `excluding`
+    static func all(excluding: CACornerMask) -> CACornerMask {
+        switch excluding {
+        case .bottomLeft: return [.topLeft, .topRight, .bottomRight]
+        case .bottomRight: return [.topLeft, .topRight, .bottomLeft]
+        case .topLeft: return [.topRight, .bottomLeft, .bottomRight]
+        case .topRight: return [.topLeft, .bottomLeft, .bottomRight]
+        default: return .all
+        }
+    }
+}
