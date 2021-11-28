@@ -1,5 +1,5 @@
 # ReadApp
 # read book app
 
-<centre>![Alt Text](https://media.giphy.com/media/DctcizdAB8RFgdB8jq/giphy.gif)</center>
+![giphy](https://user-images.githubusercontent.com/66757978/143786189-309f8be9-dfc4-48f4-898e-5e33dc6a891a.gif)
 
